@@ -1,13 +1,6 @@
-const user = {
-	userName: "Karume",
-	age: 20,
-	subscription: "Gold",
-	title: "COO"
-};
-
-function RenderUser() {
+function RenderUser(user) {
 	return (
-		<div className="user-data">
+		<div className="user_data">
 			<span>Welcome, {user.userName}</span>
 			<span>{user.age}</span>
 			<span>{user.subscription}</span>

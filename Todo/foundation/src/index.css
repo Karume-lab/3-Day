@@ -5,9 +5,3 @@ h1 {
 	margin: 0 auto;
 	border-bottom: 2px solid blue;
 }
-
-/* RenderUser */
-.user-data {
-	display: flex;
-	flex-direction: column;
-}
