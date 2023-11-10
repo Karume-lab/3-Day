@@ -1,0 +1,13 @@
+/* Hello World */
+h1 {
+	color: aquamarine;
+	width: fit-content;
+	margin: 0 auto;
+	border-bottom: 2px solid blue;
+}
+
+/* RenderUser */
+.user-data {
+	display: flex;
+	flex-direction: column;
+}

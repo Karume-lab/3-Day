@@ -1,0 +1,12 @@
+How to know what to include as a one component
+
+
+file structure
+export default
+how to import between js files
+how does it know to use index.js
+virtual DOM
+why are classes in camel case
+this keyword
+destructuring objects
+button that toggles color when clicked
