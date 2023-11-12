@@ -10,6 +10,15 @@
 
 .task_container button {
 	width: 35px;
+	padding: 5px;
 	background: none;
 	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.task_container button:hover {
+	background-color: rgb(180, 52, 52);
+	border-radius: 50%;
 }
