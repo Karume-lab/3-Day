@@ -1,11 +1,30 @@
+.no_tasks {
+	background-image: url(./../../assets/img/no_tasks.jpg);
+	padding: 30%;
+	height: 20px;
+	background-repeat: no-repeat;
+	margin: 10px auto;
+	overflow: hidden;
+	background-size: contain;
+	background-position: center;
+}
+
 .task_container {
-	background-color: rgb(32, 145, 107);
+	background-color: rgb(45, 163, 134);
 	border-radius: 10px;
 	padding: 10px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 10px;
+}
+
+.task_container span {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.complete_task {
+	background-color: rgb(14, 94, 67);
 }
 
 .task_container button {
@@ -21,4 +40,8 @@
 .task_container button:hover {
 	background-color: rgb(180, 52, 52);
 	border-radius: 50%;
+}
+
+.checked_task {
+	text-decoration: line-through;
 }
