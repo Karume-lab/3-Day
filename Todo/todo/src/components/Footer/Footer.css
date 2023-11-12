@@ -10,3 +10,12 @@
 	padding: 10px;
 	background-color: rgb(32, 145, 107);
 }
+
+.footer a{
+	text-decoration: none;
+	color: aqua;
+}
+
+.footer a:hover{
+	color: rgb(7, 173, 173);
+}
